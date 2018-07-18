@@ -1,0 +1,41 @@
+﻿table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    border: 1px solid #dddddd;
+	font-weight:200;
+    text-align: left;
+    padding: 8px;
+}
+
+th[scope='row'] {
+    background-color: #d7d9f2;
+	font-weight:700;
+	text-align:center;
+}
+tr:nth-child(even) {
+    background-color: #f9fbff;
+	
+}
+.issue_id
+{
+	font-weight:700;
+}
+
+.number
+{
+	text-align:center;
+	font-weight:700;
+}
+
+.number--open
+{
+	color:green;
+}
+
+.number--closed
+{
+	color:red;
+}
